@@ -8,8 +8,6 @@ from api.serializers import UserSerializer, GroupSerializer
 
 from rest_framework.views import APIView
 from rest_framework.response import Response
-from .models import Photos
-from .serializers import PhotoSerializer
 from rest_framework import status
 from django.core.files.base import ContentFile
 import os
